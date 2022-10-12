@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 150px;
+    object-fit: cover;
+}
+.nav-link .active {
+    background-color: rgb(0, 191, 255);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nav-link {
+    margin: 0px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blink{
+    color: rgb(14, 14, 139);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-item1 {
+    background-image: linear-gradient(to right, black, gray), url('../image/train.jpg');
+    background-blend-mode: hard-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.carousel-txtbx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+
+}
+
+.carousel-btn {
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: rgb(0, 102, 255);
+}
+
+.carousel-item2 {
+    background-image: linear-gradient(to right, black, gray), url('../image/train2.jpg');
+    background-blend-mode: difference;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.service {
+    margin-top: 70px;
+}
+
+.service_card {
+    text-align: center;
+}
+
+.service_logo i {
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: rgb(57, 57, 221);
+
+}
+
+.service_heading h2 {
+    padding-bottom: 12px;
+    color: rgb(57, 57, 221);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.service_paragraph p {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+
+}
+
+.service_card1 {
+    background-color: rgba(153, 210, 239, 0.392);
+}
+
+.service_card2 {
+    background-color: rgba(153, 233, 239, 0.392);
+}
+
+.service_card3 {
+    background-color: rgba(246, 178, 238, 0.254);
+}
+
+/* Banner section */
+.banner {
+    margin-top: 20px;
+    color: white;
+}
+
+.banner .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to right, rgb(66, 123, 239), rgb(94, 93, 93)), url('../image/raod.jpg');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bannerbx {
+    background-color: rgba(255, 255, 255, 0.26);
+}
+
+.b-txt1 {
+    padding-top: 12px;
+}
+
+/* Do section */
+.do .row {
+    border-bottom: 2px solid rgb(151, 151, 149);
+}
+
+.do .dotext {
+    color: rgb(14, 14, 139);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.dosetiontop {
+    border-left: 3px solid rgb(14, 14, 139);
+}
+
+.dosection {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.dosetiontop h3 {
+    padding-left: 12px;
+    color: rgb(14, 14, 139);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.dosetionmid {
+    padding-top: 20px;
+}
+
+.dobtn {
+    background-color: rgb(110, 199, 246);
+    color: white;
+    border: none;
+    padding: 9px 30px;
+    border-radius: 20px;
+}
+
+.dosetionmid1 h4 {
+    color: rgb(14, 14, 139);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+}
+
+/* Salution section */
+.salution {
+    background-color: rgb(96, 195, 251);
+    color: white;
+}
+
+.salution .container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.salutioncard1 {
+    margin-top: 12px;
+    background-color: rgb(108, 183, 248);
+}
+
+.salutioncdtxt1 {
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+.salutioncdtxt2 {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.dobtn1 {
+    background-color: white;
+    color: rgb(0, 166, 255);
+    border: none;
+    padding: 9px 30px;
+    border-radius: 20px;
+}
+
+/* Shipping section start */
+.shippingsection .container {
+    background-color: rgba(230, 224, 224, 0.558);
+    padding-bottom: 30px;
+}
+
+.underline {
+    width: 60%;
+    margin: auto;
+}
+
+.shippingtxt h2 {
+    color: rgb(8, 8, 111);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.shippingbox1 img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.shippingcard {
+    display: flex;
+}
+
+.shippingbox2 {
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+.shippingbox2 h3 {
+    padding-top: 4px;
+    color: rgb(10, 10, 139);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.shippingbox2 p {
+    padding-top: 12px;
+}
+
+.shippingrow img {
+    width: 50px;
+}
+
+.shippingrow {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background-color: white;
+
+}
+
+.textlink {
+    color: rgb(16, 159, 159);
+}
+
+.logisticgal {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+}
+.galcrd1 h4{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-top: 12px;
+}
+.logisticstop h4{
+    color: rgb(10, 10, 139);
+}
+/* Black section */
+.black{
+    background-image: url('../image/nature.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black .row{
+    background-color: white;
+}
+.black1{
+    padding-left: 40px;
+}
+.black1 h4{
+    color:rgb(10, 10, 139);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.black2 button{
+    margin-top: 30px;
+}
+.black .container{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+.black .row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* Footer section */
+.footer{
+    background-color:rgb(10, 10, 139) ;
+    color: white;
+}
+.footer >.container{
+    border-bottom: 1px solid rgb(232, 229, 229);
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.ylow{
+    color: yellow
+}
+.footer h5{
+    padding-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Responsive  */
+@media (max-width:559px){
+    .shippingcard {
+        flex-direction: column;
+    }
+    .shippingbox1 img {
+
+        object-fit: cover;
+        width: 100%;
+    }     
+}
+@media (max-width:473px){
+    .shippingrow {
+        flex-direction: column;
+        text-align: center;
+    }  
+}
+@media (max-width:525px){
+    .logisticgal {
+        grid-template-columns: 1fr;
+    }
+    .logisticgal img, svg {
+        vertical-align: middle;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width:277px){
+    .carousel-txtbx {
+        margin-top: 57px;
+    }
+    
+}
+@media (max-width:249px){
+    .carousel-txtbx h3 {
+        font-size: 20px;
+    }
+    .carousel-txtbx p {
+        font-size: 11px;
+    }
+}
+@media (max-width:249px){
+    .bannerbx {
+        margin: 6px 0px;
+    }
+}
+@media (max-width:767px){
+    .logisticsmid p {
+        text-align: justify;
+    }
+    .black2 button {
+        margin-top: 11px;
+        margin-left: 35px;
+    }
+}
+@media (max-width:767px){
+    .footer h5 {
+        padding-top: 36px;
+    }
+}
+
+
